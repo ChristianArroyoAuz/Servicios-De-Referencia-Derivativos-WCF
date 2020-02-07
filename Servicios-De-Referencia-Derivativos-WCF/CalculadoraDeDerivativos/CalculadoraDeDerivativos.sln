@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioCalculadoraDerivativos", "ServicioCalculadoraDerivativos\ServicioCalculadoraDerivativos.csproj", "{8F05893C-F6F0-42E3-90CA-3C01B4966E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anfitrion", "Anfitrion\Anfitrion.csproj", "{785F3A2E-4E69-4C54-B7C8-9823E23E0A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{C5B7325A-EE17-4F96-A8EA-2F2F0A999719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F05893C-F6F0-42E3-90CA-3C01B4966E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F05893C-F6F0-42E3-90CA-3C01B4966E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F05893C-F6F0-42E3-90CA-3C01B4966E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F05893C-F6F0-42E3-90CA-3C01B4966E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785F3A2E-4E69-4C54-B7C8-9823E23E0A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785F3A2E-4E69-4C54-B7C8-9823E23E0A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785F3A2E-4E69-4C54-B7C8-9823E23E0A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785F3A2E-4E69-4C54-B7C8-9823E23E0A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B7325A-EE17-4F96-A8EA-2F2F0A999719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B7325A-EE17-4F96-A8EA-2F2F0A999719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B7325A-EE17-4F96-A8EA-2F2F0A999719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B7325A-EE17-4F96-A8EA-2F2F0A999719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

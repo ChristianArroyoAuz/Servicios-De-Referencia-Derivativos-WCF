@@ -1,0 +1,10 @@
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\bin\Debug\Anfitrion.exe.config
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\bin\Debug\Anfitrion.exe
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\bin\Debug\Anfitrion.pdb
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\bin\Debug\ServicioCalculadoraDerivativos.dll
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\bin\Debug\ServicioCalculadoraDerivativos.pdb
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\obj\Debug\Anfitrion.csprojAssemblyReference.cache
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\obj\Debug\Anfitrion.csproj.CoreCompileInputs.cache
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\obj\Debug\Anfitrion.csproj.CopyComplete
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\obj\Debug\Anfitrion.exe
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\Anfitrion\obj\Debug\Anfitrion.pdb

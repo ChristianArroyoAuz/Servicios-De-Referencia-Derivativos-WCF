@@ -1,0 +1,6 @@
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\ServicioCalculadoraDerivativos\bin\Debug\ServicioCalculadoraDerivativos.dll
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\ServicioCalculadoraDerivativos\bin\Debug\ServicioCalculadoraDerivativos.pdb
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\ServicioCalculadoraDerivativos\obj\Debug\ServicioCalculadoraDerivativos.csprojAssemblyReference.cache
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\ServicioCalculadoraDerivativos\obj\Debug\ServicioCalculadoraDerivativos.csproj.CoreCompileInputs.cache
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\ServicioCalculadoraDerivativos\obj\Debug\ServicioCalculadoraDerivativos.dll
+C:\Users\Christian Arroyo\Desktop\Servicios-Derivativos-WCF\CalculadoraDeDerivativos\ServicioCalculadoraDerivativos\obj\Debug\ServicioCalculadoraDerivativos.pdb

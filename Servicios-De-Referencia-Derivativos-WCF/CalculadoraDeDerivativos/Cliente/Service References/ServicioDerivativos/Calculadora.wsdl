@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Calculadora" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8080/Derivativos/Calculadora?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8080/Derivativos/Calculadora?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8080/Derivativos/Calculadora?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICalculadoraDerivativos_CalcularDerivativo_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularDerivativo" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraDerivativos_CalcularDerivativo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularDerivativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraSuma_CalcularSuma_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularSuma" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraSuma_CalcularSuma_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularSumaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraResta_CalcularResta_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularResta" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraResta_CalcularResta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularRestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraMultiplicacion_CalcularMultiplicacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularMultiplicacion" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraMultiplicacion_CalcularMultiplicacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularMultiplicacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraDivision_CalcularDivision_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularDivision" />
+  </wsdl:message>
+  <wsdl:message name="ICalculadoraDivision_CalcularDivision_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalcularDivisionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICalculadoraDerivativos">
+    <wsdl:operation name="CalcularDerivativo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculadoraDerivativos/CalcularDerivativo" message="tns:ICalculadoraDerivativos_CalcularDerivativo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculadoraDerivativos/CalcularDerivativoResponse" message="tns:ICalculadoraDerivativos_CalcularDerivativo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICalculadoraSuma">
+    <wsdl:operation name="CalcularSuma">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculadoraSuma/CalcularSuma" message="tns:ICalculadoraSuma_CalcularSuma_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculadoraSuma/CalcularSumaResponse" message="tns:ICalculadoraSuma_CalcularSuma_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICalculadoraResta">
+    <wsdl:operation name="CalcularResta">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculadoraResta/CalcularResta" message="tns:ICalculadoraResta_CalcularResta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculadoraResta/CalcularRestaResponse" message="tns:ICalculadoraResta_CalcularResta_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICalculadoraMultiplicacion">
+    <wsdl:operation name="CalcularMultiplicacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculadoraMultiplicacion/CalcularMultiplicacion" message="tns:ICalculadoraMultiplicacion_CalcularMultiplicacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculadoraMultiplicacion/CalcularMultiplicacionResponse" message="tns:ICalculadoraMultiplicacion_CalcularMultiplicacion_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICalculadoraDivision">
+    <wsdl:operation name="CalcularDivision">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculadoraDivision/CalcularDivision" message="tns:ICalculadoraDivision_CalcularDivision_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculadoraDivision/CalcularDivisionResponse" message="tns:ICalculadoraDivision_CalcularDivision_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICalculadoraDerivativos" type="tns:ICalculadoraDerivativos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcularDerivativo">
+      <soap:operation soapAction="http://tempuri.org/ICalculadoraDerivativos/CalcularDerivativo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_ICalculadoraSuma" type="tns:ICalculadoraSuma">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcularSuma">
+      <soap:operation soapAction="http://tempuri.org/ICalculadoraSuma/CalcularSuma" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_ICalculadoraResta" type="tns:ICalculadoraResta">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcularResta">
+      <soap:operation soapAction="http://tempuri.org/ICalculadoraResta/CalcularResta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_ICalculadoraMultiplicacion" type="tns:ICalculadoraMultiplicacion">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcularMultiplicacion">
+      <soap:operation soapAction="http://tempuri.org/ICalculadoraMultiplicacion/CalcularMultiplicacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_ICalculadoraDivision" type="tns:ICalculadoraDivision">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcularDivision">
+      <soap:operation soapAction="http://tempuri.org/ICalculadoraDivision/CalcularDivision" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Calculadora">
+    <wsdl:port name="BasicHttpBinding_ICalculadoraDerivativos" binding="tns:BasicHttpBinding_ICalculadoraDerivativos">
+      <soap:address location="http://localhost:8080/Derivativos/Calculadora" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_ICalculadoraSuma" binding="tns:BasicHttpBinding_ICalculadoraSuma">
+      <soap:address location="http://localhost:8080/Derivativos/Calculadora" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_ICalculadoraResta" binding="tns:BasicHttpBinding_ICalculadoraResta">
+      <soap:address location="http://localhost:8080/Derivativos/Calculadora" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_ICalculadoraMultiplicacion" binding="tns:BasicHttpBinding_ICalculadoraMultiplicacion">
+      <soap:address location="http://localhost:8080/Derivativos/Calculadora" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_ICalculadoraDivision" binding="tns:BasicHttpBinding_ICalculadoraDivision">
+      <soap:address location="http://localhost:8080/Derivativos/Calculadora" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
